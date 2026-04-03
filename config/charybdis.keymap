@@ -21,7 +21,7 @@
 &kp TAB        &kp Q   &kp W   &kp E           &kp R         &kp T           &kp Y       &kp U   &kp I      &kp O    &kp P     &kp BSLH
 &kp LSHFT      &kp A   &kp S   &kp D           &kp F         &kp G           &kp H       &kp J   &kp K      &kp L    &kp SEMI  &kp SQT
 &kp LCTRL      &kp Z   &kp X   &kp C           &kp V         &kp B           &kp N       &kp M   &kp COMMA  &kp DOT  &kp FSLH  &mo 4
-                                &mo 3           &mkp LCLK     &mkp RCLK       &kp RET     &kp SPACE
+                                &mo 3           &mkp LCLK     &mkp RCLK       &kp SPACE   &kp RET
                                                 &kp LGUI      &mo 2           &kp RALT
             >;
         };
@@ -32,9 +32,9 @@
 &kp GRAVE  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5          &kp F6    &kp F7    &kp F8    &kp F9    &kp F10    &kp DEL
 &kp CAPS   &none   &none   &none   &none   &none           &none     &none     &kp F11   &kp F12   &kp MINUS  &kp EQUAL
 &kp LSHFT  &none   &none   &none   &none   &none           &none     &kp UP    &none     &none     &none      &none
-&kp LCTRL  &kp LALT  &none   &none   &none   &none           &kp LEFT  &kp DOWN  &kp RIGHT &none     &kp LBKT   &kp RBKT
-                        &mo 3   &none   &none           &none     &none
-                                &none   &none           &none
+&kp LCTRL  &kp LALT &none  &none   &none   &none           &kp LEFT  &kp DOWN  &kp RIGHT &none     &kp LBKT   &kp RBKT
+                    &mo 3   &none   &none           &none     &none
+                            &none   &none           &none
             >;
         };
 
@@ -50,19 +50,19 @@
             >;
         };
 
-        // ===================== LAYER 3 — SCROLL (LT0 누르는 동안 트랙볼 스크롤 + FN키) =====================
+        // ===================== LAYER 3 — SCROLL =====================
         SCROLL {
             bindings = <
 &kp GRAVE  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5          &kp F6    &kp F7    &kp F8    &kp F9    &kp F10    &kp DEL
 &kp CAPS   &none   &none   &none   &none   &none           &none     &none     &kp F11   &kp F12   &kp MINUS  &kp EQUAL
 &kp LSHFT  &none   &none   &none   &none   &none           &none     &kp UP    &none     &none     &none      &none
-&kp LCTRL  &none   &none   &none   &none   &none           &kp LEFT  &kp DOWN  &kp RIGHT &none     &kp LBKT   &kp RBKT
-                        &mo 3   &none   &none           &none     &none
-                                &none   &none           &none
+&kp LCTRL  &kp LALT &none  &none   &none   &none           &kp LEFT  &kp DOWN  &kp RIGHT &none     &kp LBKT   &kp RBKT
+                    &mo 3   &none   &none           &none     &none
+                            &none   &none           &none
             >;
         };
 
-        // ===================== LAYER 4 — SNIPE (R30 누르는 동안 스나이핑) =====================
+        // ===================== LAYER 4 — SNIPE =====================
         SNIPE {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
