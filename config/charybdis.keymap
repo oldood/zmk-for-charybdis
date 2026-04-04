@@ -33,20 +33,20 @@
 &kp CAPS   &trans   &trans  &trans  &trans  &trans          &trans    &trans    &kp F11   &kp F12   &kp LBKT   &kp RBKT
 &kp LSHFT  &trans   &trans  &trans  &trans  &trans          &trans    &kp UP    &trans    &kp INS   &kp HOME   &kp PG_UP
 &kp LCTRL  &kp LALT &trans  &trans  &trans  &trans          &kp LEFT  &kp DOWN  &kp RIGHT &kp DEL   &kp END    &kp PG_DN
-                    &mo 3   &trans  &trans          &trans    &trans
-                            &trans  &trans          &trans
+                            &mo 3   &trans  &trans          &trans    &trans
+                                    &trans  &trans          &trans
             >;
         };
 
         // ===================== LAYER 2 — NUMPAD / BT =====================
         NUMPAD {
             bindings = <
-&none   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &BT_CLR &none           &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_MINUS   &kp EQUAL  &none
-&none   &none         &none         &none         &none   &none           &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_PLUS    &none      &none
-&none   &none         &none         &none         &none   &none           &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_PLUS    &none      &none
-&none   &none         &none         &none         &none   &none           &kp KP_N0  &kp KP_N0  &kp KP_DOT &none          &none      &none
-                                    &none         &none   &none           &none      &none
-                                                  &none   &mo 2           &none
+&none   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_CLR &none           &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_MINUS   &kp EQUAL  &none
+&none   &none         &none         &none         &none      &none           &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_PLUS    &none      &none
+&none   &none         &none         &none         &none      &none           &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_PLUS    &none      &none
+&none   &none         &none         &none         &none      &none           &kp KP_N0  &kp KP_N0  &kp KP_DOT &none          &none      &none
+                                    &none         &none      &none           &none      &none
+                                                  &none      &mo 2           &none
             >;
         };
 
@@ -57,8 +57,8 @@
 &kp CAPS   &trans   &trans  &trans  &trans  &trans          &trans    &trans    &kp F11   &kp F12   &kp LBKT   &kp RBKT
 &kp LSHFT  &trans   &trans  &trans  &trans  &trans          &trans    &kp UP    &trans    &kp INS   &kp HOME   &kp PG_UP
 &kp LCTRL  &kp LALT &trans  &trans  &trans  &trans          &kp LEFT  &kp DOWN  &kp RIGHT &kp DEL   &kp END    &kp PG_DN
-                    &mo 3   &trans  &trans          &trans    &trans
-                            &trans  &trans          &trans
+                            &mo 3   &trans  &trans          &trans    &trans
+                                    &trans  &trans          &trans
             >;
         };
 
