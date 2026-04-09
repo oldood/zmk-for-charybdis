@@ -23,7 +23,7 @@
 &kp LCTRL      &kp Z   &kp X   &kp C           &kp V         &kp B           &kp N       &kp M   &kp COMMA  &kp DOT  &kp FSLH  &kp RALT
                                 &mo 3           &mkp LCLK     &mkp RCLK       &kp SPACE   &kp RET
                                                 &mo 4         &mo 2           &kp LGUI
-            >;E
+            >;
         };
 
         // ===================== LAYER 1 — FN / NAV =====================
