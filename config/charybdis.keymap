@@ -22,8 +22,8 @@
 &kp LSHFT      &kp A   &kp S   &kp D           &kp F         &kp G           &kp H       &kp J   &kp K      &kp L    &kp SEMI  &kp SQT
 &kp LCTRL      &kp Z   &kp X   &kp C           &kp V         &kp B           &kp N       &kp M   &kp COMMA  &kp DOT  &kp FSLH  &kp RALT
                                 &mo 3           &mkp LCLK     &mkp RCLK       &kp SPACE   &kp RET
-                                                &kp LGUI      &mo 2           &mo 4
-            >;
+                                                &mo 4         &mo 2           &kp LGUI
+            >;E
         };
 
         // ===================== LAYER 1 — FN / NAV =====================
@@ -70,7 +70,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans    &trans  &trans
-                                &trans  &trans    &mo 4
+                                &mo 4   &trans    &trans
             >;
         };
     };
